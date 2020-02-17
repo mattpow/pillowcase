@@ -14,7 +14,7 @@ Pillowcase is a package created by Hatchmed to provide an easy to implement solu
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/mattpow/pillowcas.git", from: "1.0")
+    .package(url: "https://github.com/mattpow/pillowcase.git", from: "1.0")
 ]
 ```
 
