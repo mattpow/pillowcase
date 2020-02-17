@@ -63,7 +63,6 @@ Connect
 ```swift
 public func connect(uuid: String)
 ```
-or
 ```swift
 public func connect(device: BGXDevice)
 ```
