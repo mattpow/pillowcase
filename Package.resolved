@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "bgxpress",
+        "repositoryURL": "https://github.com/mattpow/bgxpress",
+        "state": {
+          "branch": null,
+          "revision": "32487aa13ca8c9deb2d8a6fa6c961ed6aa620bda",
+          "version": "1.0.7"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
