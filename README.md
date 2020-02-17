@@ -7,8 +7,8 @@ Pillowcase is a package created by Hatchmed to provide an easy to implement solu
 - [x] Easy to configure button mapping
 
 ## Requirements
-- iOS 10.0+ / macOS 10.12+
-- Xcode 10.2+
+- iOS 10.0+
+- macOS 10.13+
 
 ## Installing
 ### Swift Package Manager
@@ -55,4 +55,25 @@ extension AppDelegate: pillowcaseDelegate {
     // and connect to one using pillowcase.connect(device: BGXDevice)
   }
 }
+```
+
+### Pillowcase Functions
+
+Connect
+```swift
+public func connect(uuid: String)
+```
+or
+```swift
+public func connect(device: BGXDevice)
+```
+
+Disconnect
+```swift
+public func disconnect(_ reset: Bool = false)
+```
+
+Get Devices (Scan)
+```swift
+public func getDevices(_ indefinite: Bool = false)
 ```
